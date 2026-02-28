@@ -53,9 +53,9 @@ const ContactSection = () => {
             className="space-y-6"
           >
             {[
-              { icon: Phone, label: "Phone", value: "+94 XX XXX XXXX" },
-              { icon: Mail, label: "Email", value: "rasindu@example.com" },
-              { icon: MapPin, label: "Location", value: "Dummalakotuwa, Dankotuwa, Sri Lanka" },
+              { icon: Phone, label: "Phone", value: "+94 76 184 9178" },
+              { icon: Mail, label: "Email", value: "rasinduanuththara@gmail.com" },
+              { icon: MapPin, label: "Location", value: "Negombo, Sri Lanka" },
             ].map((item) => (
               <div key={item.label} className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
@@ -70,13 +70,17 @@ const ContactSection = () => {
 
             <div className="flex gap-4 pt-4">
               <a
-                href="#"
+                href="https://github.com/rasinduanuththara"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
               >
                 <Github size={18} />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/rasindu-fernando-a67591315"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
               >
                 <Linkedin size={18} />
