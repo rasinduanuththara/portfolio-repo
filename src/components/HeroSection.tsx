@@ -11,7 +11,11 @@ const HeroSection = () => {
     >
       {/* Background */}
       <div className="absolute inset-0">
-        <img src={heroBg} alt="" className="w-full h-full object-cover opacity-40" />
+        <img
+          src={heroBg}
+          alt=""
+          className="w-full h-full object-cover opacity-40"
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background" />
       </div>
 
@@ -41,9 +45,9 @@ const HeroSection = () => {
               Full Stack Developer | IT Undergraduate
             </p>
             <p className="text-muted-foreground max-w-md mb-8 leading-relaxed">
-              Building practical, impactful solutions using modern web technologies.
-              Information Technology undergraduate passionate about software engineering
-              and data-driven problem solving.
+              Building practical, impactful solutions using modern web
+              technologies. Information Technology undergraduate passionate
+              about software engineering and data-driven problem solving.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -55,7 +59,10 @@ const HeroSection = () => {
                 <ExternalLink size={16} />
               </a>
               <a
-                href="#contact"
+                href="/cv.pdf"
+                download
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 px-7 py-3.5 rounded-full border border-primary/40 text-primary font-semibold hover:bg-primary/10 transition-all duration-300"
               >
                 Download CV

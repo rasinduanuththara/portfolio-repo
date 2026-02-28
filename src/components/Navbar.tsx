@@ -48,12 +48,15 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#contact"
+            href="/cv.pdf"
+            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary text-primary-foreground text-sm font-semibold hover:shadow-[0_0_20px_hsl(38_90%_55%/0.3)] transition-all duration-300"
-          >
-            <Download size={14} />
-            Download CV
-          </a>
+            >
+           <Download size={14} />
+             Download CV
+            </a>
         </div>
 
         {/* Mobile toggle */}
